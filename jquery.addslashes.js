@@ -1,6 +1,7 @@
 /*!
  * jQuery Add Slashes Plugin 1.0.0
  * Requires jQuery 1.x
+ * https://github.com/renegare/JQuery-addSlashes-Plugin
  *
  * Copyright Software Freedom Conservancy, Inc.
  * Dual licensed under the MIT or GPL Version 2 licenses.
