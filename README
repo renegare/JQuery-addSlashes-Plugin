@@ -1,0 +1,36 @@
+Introduction
+-------------
+
+A simple jQuery function to add slashes to certain characters.
+
+By default it adds slashes to the following characters: \, ', ", 0(? not sure why this one)
+
+You can also extend this list by passing a second parameter, as a string or object.
+
+Note: when you set a string, the function splits it into an array of characters.
+
+Usage
+-------------
+
+alert( $.addSlashes('$$name$$^!', '$^!') ); // \$\$name\$\$\^\!
+
+alert( $.addSlashes('$$name$$^!', ['$','^','!'] ) ); // \$\$name\$\$\^\!
+
+alert( $.addSlashes('$$name$$^!', {a:'$',b:'^',c:'!'} ) ); // \$\$name\$\$\^\!
+
+
+Fini! :)
+
+
+
+Credits
+-------------
+@original_author Trey Shugart
+@original_website http://code.google.com/p/jquery-plugin-dev/source/browse/trunk/jquery.addslashes.js?r=14&spec=svn14
+
+
+License
+-------------
+Copyright Software Freedom Conservancy, Inc.
+Dual licensed under the MIT or GPL Version 2 licenses.
+http://jquery.org/license
